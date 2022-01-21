@@ -32,11 +32,36 @@ header nav {
 header nav ul li {
     display: inline;
 }
-/*this may need to be placed with the element above */
+
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+footer a {
+    color: #024e76;
+}
+section {
+    padding: 60px;
 }
 
 /*hero section */
@@ -65,7 +90,7 @@ header nav ul li a {
 .hero-form p {
     margin: 5px 0 15px 0;
 }
-/* fix this code! */
+
 .form-input {
     border: 1px solid #024e76;
     display: block;
@@ -75,7 +100,7 @@ header nav ul li a {
     width: 100%;
     margin-bottom: 15px;
 }
-/*fix this area to match */
+
 .hero-form label {
     margin: 0 5px;
 }
@@ -220,7 +245,8 @@ header nav ul li a {
     font-size: 32px;
 }
 
-.contact-info p, .contact-info address {
+.contact-info p, 
+.contact-info address {
     margin: 20px 0;
     line-height: 1.5;
     font-size: 20px;
@@ -233,28 +259,3 @@ header nav ul li a {
 
 
 
-
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-
-
-footer h2 {
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-footer a {
-    color: #024e76;
-}
-section {
-    padding: 60px;
-}
